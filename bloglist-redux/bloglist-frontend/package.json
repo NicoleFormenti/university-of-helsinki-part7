@@ -1,0 +1,35 @@
+{
+  "name": "bloglist-frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "eslint": "eslint .",
+    "cypress:open": "cypress open"
+  },
+  "dependencies": {
+    "@testing-library/user-event": "^12.6.3",
+    "axios": "^0.21.4",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-redux": "^7.2.5",
+    "react-router-dom": "^5.3.0",
+    "react-scripts": "4.0.1",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^5.3.1",
+    "web-vitals": "^0.2.4"
+  },
+  "proxy": "http://localhost:3003",
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "cypress": "^8.3.1",
+    "eslint-plugin-cypress": "^2.11.3",
+    "eslint-plugin-jest": "^24.4.0"
+  }
+}
