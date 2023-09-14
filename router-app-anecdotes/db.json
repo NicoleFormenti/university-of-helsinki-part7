@@ -1,0 +1,24 @@
+{
+    "notes": [
+      {
+        "content": "trying to use hooks",
+        "id": 1
+      },
+      {
+        "content": "not sure what i'm doing",
+        "id": 2
+      }
+    ],
+    "persons": [
+      {
+        "name": "mluukkai",
+        "number": "040-548334555",
+        "id": 1
+      },
+      {
+        "name": "ahellas",
+        "number": "040-43534535",
+        "id": 2
+      }
+    ]
+  }
